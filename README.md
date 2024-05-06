@@ -28,7 +28,6 @@ There are two main types of outputs. The first has two components a basic t-test
 
 The second output is a series of thirteen graphs. Graph number one shows the base data change in a percentage in the happiness score by region. Graphs two through four compare the change in generosity, choices, and corruption between the base states, states with large separatist movements, and states with small separatist movements. Graphs number five, eight, and eleven do this same comparison but for states within the region of South Asia. Graphs number six, nine, and twelve do this but for the Commonwealth of Independent States, and graphs number seven, ten, and thirteen for North America and ANZ(Australia and New Zealand).
 
-![General Happy Change Over Time By Region]
-(happyness_by_region.png)
+![Separatist Movements Around The World](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/happyness_by_region.png)
 
 ## Findings
