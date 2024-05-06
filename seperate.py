@@ -11,7 +11,7 @@ import pandas as pd
 data=pd.read_csv('happy.csv')
 
 # fixing columns names and droping
-data=data.rename(columns={'Ladder score':'Happyness','Explained by: Log GDP per capita':'GDP','Explained by: Social support':'Social','Explained by: Healthy life expectancy':'Health','Explained by: Freedom to make life choices':'Choices','Explained by: Generosity':'Generosity','Explained by: Perceptions of corruption':'Corruption','Dystopia + residual':'Dystopia'})
+data=data.rename(columns={'Ladder score':'Happyness','Explained by: Log GDP per capita':'GDP','Explained by: Social support':'Social','Explained by: Healthy life expectancy':'Health','Explained by: Freedom to make life choices':'Choices','Explained by: Generosity':'Generosity','Explained by: Perceptions of corruption':'Corruption','Dystopia + residual':'Dystopia','Regional indicator':'Region'})
 drop=['Unnamed: 0','upperwhisker','lowerwhisker']
 data=data.drop(columns=drop)
 
@@ -27,7 +27,7 @@ trim=dwlsp[sep_sm==False]
 
 # Calculationg for growth for every region for every category
 trim2=trim.set_index(['Country name'])
-avgs=trim2.groupby(['year','Regional indicator']).mean()
+avgs=trim2.groupby(['year','Region']).mean()
 avg20=avgs.xs(2020,level='year')
 diff=avgs-avg20
 growth=diff.div(avg20)
@@ -40,14 +40,14 @@ SSD=data[SSD_trim==True]
 
 # Calculating for growth for large sepratist movement
 LSD2=LSD.set_index(['Country name'])
-avg_LS=LSD2.groupby(['year','Regional indicator']).mean()
+avg_LS=LSD2.groupby(['year','Region']).mean()
 avg20_LS=avg_LS.xs(2020,level='year')
 dif_LS=avg_LS-avg20_LS
 growth_LS=dif_LS.div(avg20_LS)
 
 # Calculating for growth for small sepratist movement
 SSD2=SSD.set_index(['Country name'])
-avg_SS=SSD2.groupby(['year','Regional indicator']).mean()
+avg_SS=SSD2.groupby(['year','Region']).mean()
 avg20_SS=avg_SS.xs(2020,level='year')
 dif_SS=avg_SS-avg20_SS
 growth_SS=dif_SS.div(avg20_SS)
