@@ -33,6 +33,17 @@ var=base.query('year==2024')
 var.plot.barh(y='Happyness',x='Region')
 print('Regions to look: South Asia, Commonwealth of Independent States, and North America and ANZ')
 
+# graph number 0: Happyness score change by state type
+fig,ax=plt.subplots()
+sns.lineplot(x='year', y='Happyness', label='base', data=base, errorbar=None)
+sns.lineplot(x='year', y='Happyness', label='large', data=large, errorbar=None)
+sns.lineplot(x='year', y='Happyness', label='small', data=small, errorbar=None)
+ax.set_title('Happyness Over Time')
+ax.set_xlabel('Year')
+ax.set_ylabel('Percent Change')
+fig.tight_layout()
+fig.savefig('happyness_by_type.png')
+
 # graph number 1: base 'happyness' by region
 fig,ax=plt.subplots()
 sns.lineplot(x='year',y='Happyness',hue='Region',data=base)
