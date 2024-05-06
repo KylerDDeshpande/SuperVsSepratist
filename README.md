@@ -1,6 +1,6 @@
 # Sepratist Movements
 Comparing states with separatist movements to the rest of the region they are within.
-![Separatist Movements Around The World](Separatist_Movements_Around_The_World.png)
+![Separatist Movements Around The World](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/Other/Separatist_Movements_Around_The_World.png)
 
 ## Overview
 Ever since the creation of the state, there have been those who do not wish to be a part of it. Either because they simply did not want to be ruled at all, because they viewed the current leader in a negative light, because they viewed the ruling party as too different from them or for any number of different reasons. This project will focus on the third reason for groups of people within a state who want to separate from a state to form their own state due to various often cultural differences (including but not limited to race/ethnicity, shared history, and religion). While many states have these groups they often don't get much attention until they are approaching a critical mass. Most outsider observers tie these movements not to their communication methods or long personal history but to shifts within the perception and policies of the ruling state. However, there has been very little research on what are the most important factors that lead to these movements gaining influence and if they vary by region. This project is the first elementary attempt to start to fill that gap using data from the World Happyness Survey and a list of popular separatist movements in the 2020s.
@@ -28,20 +28,20 @@ There are two main types of outputs. The first has two components a basic t-test
 
 The second output is a series of thirteen graphs. Graph number one shows the base data change in a percentage in the happiness score by region.
 
-![Happyness Scores Change Over Time By Region](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/happyness_by_region.png)
+![Happyness Scores Change Over Time By Region](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/Graphs/happyness_by_region.png)
 
 Graphs two through four compare the change in generosity, choices, and corruption between the base states, states with large separatist movements, and states with small separatist movements.
-The one for corruption is shown below ![Corruption Scores Change Over Time](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/corruption_by_type.png)
+The one for corruption is shown below ![Corruption Scores Change Over Time](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/Graphs/corruption_by_type.png)
  
 Graphs number five, eight, and eleven do this same comparison but for states within the region of South Asia.
  The one for corruption in South Asia is shown below
-![Corruption in South Asia](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/corruption_in-South_Asia.png)
+![Corruption in South Asia](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/Graphs/corruption_in-South_Asia.png)
  
 Graphs number six, nine, and twelve do this but for the Commonwealth of Independent States, and graphs number seven, ten, and thirteen for North America and ANZ(Australia and New Zealand).
 The ones for generosity in the Commonwealth of Independent States and choices for North America and ANZ are shown below
-![Generosity in the Commonwealth of Independent States](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/generosity_in_Commonwealth_of_Independent_States.png)
+![Generosity in the Commonwealth of Independent States](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/Graphs/generosity_in_Commonwealth_of_Independent_States.png)
 
-![Choices in North America and ANZ](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/choices_in_North_America_and_ANZ.png)
+![Choices in North America and ANZ](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/Graphs/choices_in_North_America_and_ANZ.png)
 
 ## Findings
 The data reveals some interesting findings when it comes to factors that change over time. After running the t-test, we see that the factors that changed the most over time between the base region states and the states with separatist movements are (in order of greatest difference): generosity (individuals within a state being generous to other individuals within the same state), choices (or freedom to make independent choices), and corruption (individuals who feel that their state's government is corrupt). Then when comparing changes between regions, we see that the regions that changed the most were South Asia (negatively), the Commonwealth of Independent States (positively), and North America and ANZ (positively).
