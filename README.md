@@ -26,8 +26,21 @@ The third and final script is used to run some basic data analysis and to create
 ## Outputs
 There are two main types of outputs. The first has two components a basic t-test run on all of the categories to determine which ones had the greatest difference between the base counties and the ones with separatist movements one graph showing, and a graph that displays the general happiness change over time for all the regions.
 
-The second output is a series of thirteen graphs. Graph number one shows the base data change in a percentage in the happiness score by region. Graphs two through four compare the change in generosity, choices, and corruption between the base states, states with large separatist movements, and states with small separatist movements. Graphs number five, eight, and eleven do this same comparison but for states within the region of South Asia. Graphs number six, nine, and twelve do this but for the Commonwealth of Independent States, and graphs number seven, ten, and thirteen for North America and ANZ(Australia and New Zealand).
+The second output is a series of thirteen graphs. Graph number one shows the base data change in a percentage in the happiness score by region.
 
-![Separatist Movements Around The World](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/happyness_by_region.png)
+![Happyness Scores Change Over Time By Region](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/happyness_by_region.png)
+
+Graphs two through four compare the change in generosity, choices, and corruption between the base states, states with large separatist movements, and states with small separatist movements.
+The one for corruption is shown below ![Corruption Scores Change Over Time](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/corruption_by_type.png)
+ 
+Graphs number five, eight, and eleven do this same comparison but for states within the region of South Asia.
+ The one for corruption in South Asia is shown below
+![Corruption in South Asia](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/corruption_in-South_Asia.png)
+ 
+Graphs number six, nine, and twelve do this but for the Commonwealth of Independent States, and graphs number seven, ten, and thirteen for North America and ANZ(Australia and New Zealand).
+The ones for generosity in the Commonwealth of Independent States and choices for North America and ANZ are shown below
+![Generosity in the Commonwealth of Independent States](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/generosity_in_Commonwealth_of_Independent_States.png)
+
+![Choices in North America and ANZ](https://github.com/KylerDDeshpande/SuperVsSepratist/blob/main/choices_in_North_America_and_ANZ.png)
 
 ## Findings
